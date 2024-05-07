@@ -1,5 +1,5 @@
 package Baekjoon.그리디;
-
+//20240507
 import java.util.Scanner;
 
 public class a14916 {
