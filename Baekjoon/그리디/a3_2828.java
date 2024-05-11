@@ -113,5 +113,10 @@ start+=(drop-end);
 end+=(drop-end);
 
 distance+=Math.abs(drop-end);
-end의 값이 바뀌면서, distance의 end에도 영향을 주었음(주면안됨) -> 해결: 맨앞에 두기
+end의 값이 바뀌면서, distance의 end에도 영향을 주었음(주면안됨) -> 해결: 값을 뽑아내기
+
+point) 좌표를 1.0 2.0 이렇게 세우는것이 아니라(우리가 알고있는 좌표),screen칸 자체가 좌표가 된다.
+즉, 바구니칸수가 한개면 바구니 칸 start 1 end 2가 아니라, start 1 end 1인것이다.
+
+
  */
