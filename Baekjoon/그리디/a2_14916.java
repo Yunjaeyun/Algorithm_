@@ -2,7 +2,7 @@ package Baekjoon.그리디;
 //20240507
 import java.util.Scanner;
 
-public class a14916 {
+public class a2_14916 {
     public static void main(String[] args) {
         //5:55 그냥 나머지 %로 풀면될것같은데?
         /*
