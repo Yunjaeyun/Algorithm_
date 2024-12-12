@@ -1,4 +1,4 @@
-package Baekjoon.그리디;
+package Baekjoon.그리디a;
 //20240507
 import java.util.Scanner;
 

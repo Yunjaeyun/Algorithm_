@@ -1,8 +1,6 @@
 //20240510
-package Baekjoon.그리디;
+package Baekjoon.그리디a;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class a3_2828 {

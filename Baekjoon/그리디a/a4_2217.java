@@ -1,7 +1,6 @@
 //20240511
-package Baekjoon.그리디;
+package Baekjoon.그리디a;
 import java.util.*;
-import java.io.*;
 import java.lang.*;
 public class a4_2217 {
     public static void main(String[] args) {

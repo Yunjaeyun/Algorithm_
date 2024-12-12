@@ -1,6 +1,5 @@
-package Baekjoon.그리디;
+package Baekjoon.그리디a;
 import java.util.*;
-import java.io.*;
 import java.lang.*;
 
 //20240713
