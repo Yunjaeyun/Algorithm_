@@ -2,7 +2,7 @@ package java_codingTest_study.section9_graph.section9_R2;
 //25 03 16
 
 import java.util.*;
-public class s9_06_graph {
+public class s9_05_graph {
     static int[]arr;
     static int n, m;
     static int L=0;

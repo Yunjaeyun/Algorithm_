@@ -1,7 +1,7 @@
-package Baekjoon.스택c;
+package Baekjoon.스택큐c;
 import java.util.*;
 import java.lang.*;
-import java.io.*;
+
 //25 01 22
 // pop으로 인해서, 쌓인 push값이 지워지면 다음 push를 쌓을수없음. 즉, 제3의 변수를 만드는것이 포인트
 public class c3_1874 {

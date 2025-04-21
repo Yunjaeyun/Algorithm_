@@ -1,4 +1,4 @@
-package Baekjoon.스택c;
+package Baekjoon.스택큐c;
 import java.util.*;
 import java.lang.*;
 import java.io.*;

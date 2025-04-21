@@ -10,6 +10,7 @@
 
 # python_study/ 디렉터리에 있는 모든 파일 무시
 python_study/
+review_study/
 
 # doc/notes.txt 파일은 무시하고 doc/server/arch.txt 파일은 무시하지 않음
 doc/*.txt

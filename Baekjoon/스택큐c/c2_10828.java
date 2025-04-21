@@ -1,8 +1,7 @@
-package Baekjoon.스택c;
+package Baekjoon.스택큐c;
 
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 //25 01 22
 
 //next와 nextline의 차이
@@ -10,7 +9,7 @@ import java.io.*;
 public class c2_10828 {
     private Stack<Integer> stack=new Stack<>();
 
-    private void check(String tc){
+    private void check(String tc){ //push 1
         String[] cmd = tc.split(" ");
         switch(cmd[0]){
             case "push":

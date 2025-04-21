@@ -2,7 +2,7 @@ package java_codingTest_study.section9_graph.section9_R2;
 //25 03 16
 
 import java.util.*;
-public class s9_05_graph {
+public class s9_04_graph {
     static int n, m;
     static int pm[];
     public static void main(String[]args){

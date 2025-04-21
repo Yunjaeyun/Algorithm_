@@ -3,7 +3,7 @@ package java_codingTest_study.section11_dp.section11_R2;
 //25 03 24
 
 import java.util.*;
-public class s11_01_dp {
+public class s11_03_dp {
     static int [] arr;
     static int [] dis;
     public static void main(String[]args){

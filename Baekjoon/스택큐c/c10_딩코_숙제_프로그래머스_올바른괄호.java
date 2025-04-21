@@ -1,9 +1,8 @@
 package Baekjoon.스택큐c;
 
 import java.util.*;
-import java.io.*;
 import java.lang.*;
-public class c10_프로그래머스_올바른괄호 {
+public class c10_딩코_숙제_프로그래머스_올바른괄호 {
     class Solution {
         boolean solution(String s) {
             boolean answer = true;

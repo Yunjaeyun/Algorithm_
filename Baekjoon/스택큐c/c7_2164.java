@@ -1,10 +1,9 @@
 package Baekjoon.스택큐c;
 import java.util.*;
-import java.io.*;
 import java.lang.*;
 
 //25 01 25
-public class c6_2164 {
+public class c7_2164 {
 
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);

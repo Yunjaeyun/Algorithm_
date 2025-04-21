@@ -2,7 +2,7 @@ package java_codingTest_study.section2_문자열;
 //25 02 28
 
 import java.util.*;
-public class s2_10_string {
+public class s2_10_string_마지막출력에조건설정법 {
 
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);

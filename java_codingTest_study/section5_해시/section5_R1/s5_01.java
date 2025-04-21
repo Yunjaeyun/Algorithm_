@@ -2,7 +2,7 @@ package java_codingTest_study.section5_해시.section5_R1;
 //25 03 30
 
 import java.util.*;
-public class s5_00_딩코_01 {
+public class s5_01 {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
