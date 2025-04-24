@@ -2,7 +2,7 @@ package java_codingTest_study.section12_etc_graph;
 //25 04 22 1250
 
 import java.util.*;
-public class s12_03_2583 {
+public class s12_03_1759 {
     static char arr[];
     static int l,c; //4 6
 
