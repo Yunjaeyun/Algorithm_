@@ -2,7 +2,7 @@ package java_codingTest_study.section12_etc_graph;
 //25 04 27,05 01 17:15
 
 import java.util.*;
-public class s12_08_15684 {
+public class s12_09_15684 {
     static int N,M, H, answer;
     static int[][]ladder;
     static List<int[]> candidates = new ArrayList<>();

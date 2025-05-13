@@ -2,7 +2,7 @@ package java_codingTest_study.section12_etc_graph;
 //25 05 08
 
 import java.util.*;
-public class s12_15_13913 {
+public class s12_16_13913 {
 
     static int visited[],prev[];
 

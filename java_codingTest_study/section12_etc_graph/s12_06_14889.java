@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class s12_05_14889 {
+public class s12_06_14889 {
     static int[]cm;
     static int n;
 

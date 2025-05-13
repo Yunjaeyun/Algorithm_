@@ -1,10 +1,9 @@
 package java_codingTest_study.section12_etc_graph;
 //25 05 01
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class s12_10_2468 {
+public class s12_11_2468 {
     static int board[][];
 
     static int dx[] = {-1, 0, 1, 0};

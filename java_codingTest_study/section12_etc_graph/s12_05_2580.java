@@ -11,7 +11,7 @@ class Point{
     }
 }
 
-public class s12_04_2580 {
+public class s12_05_2580 {
     static int[][] board;
     static List<Point> arr = new ArrayList<>();
 

@@ -2,7 +2,7 @@ package java_codingTest_study.section12_etc_graph;
 //25 04 24
 
 import java.util.*;
-public class s12_07_5014 {
+public class s12_08_5014 {
     static boolean[]visited;
     static int u,d,g,f;
 

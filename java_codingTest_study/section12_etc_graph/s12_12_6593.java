@@ -14,7 +14,7 @@ class Point1{
         this.z=z;
     }
 }
-public class s12_11_6593 {
+public class s12_12_6593 {
     static Queue<Point1> q;
     static boolean visited[][][];
     static char[][][]building;

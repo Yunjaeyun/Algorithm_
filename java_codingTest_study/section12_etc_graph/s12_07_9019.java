@@ -10,7 +10,7 @@ class Info{
         this.s=s;
     }
 }
-public class s12_06_9019 {
+public class s12_07_9019 {
     static Queue<Info> q;
     static boolean visited[] = new boolean[100001];
     static char[] dx = {'D', 'S', 'L', 'R'};

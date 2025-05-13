@@ -18,7 +18,7 @@ class State{
 
 
 
-public class s12_12_13459 {
+public class s12_13_13459 {
     static int n, m;
     static char board[][];
 

@@ -4,7 +4,7 @@ package java_codingTest_study.section12_etc_graph;
 import java.util.*;
 
 
-public class s12_13_13460 {
+public class s12_14_13460 {
 
 
     static char board[][];

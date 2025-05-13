@@ -2,7 +2,7 @@ package java_codingTest_study.section12_etc_graph;
 //25 05 04 06b08
 
 import java.util.*;
-public class s12_14_12851 {
+public class s12_15_12851 {
 
     static int n, target;
 

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 //25 05 01 8:15
-public class s12_09_16956 {
+public class s12_10_16956 {
     static char board[][];
 
     static int dx[] = {-1, 0, 1, 0};
