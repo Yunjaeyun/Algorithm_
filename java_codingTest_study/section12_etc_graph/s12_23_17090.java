@@ -65,7 +65,7 @@ public class s12_23_17090 {
         }
 
         visited[x][y]=false;
-        return memo[x][y];
+        return memo[x][y]; //**
 
     }
 

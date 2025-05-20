@@ -3,7 +3,7 @@ package java_codingTest_study.section12_etc_graph;
 
 import java.util.*;
 
-public class s12_22_17142_ex {
+public class s12_22_17142_end {
 
     static int[][]board;
 
@@ -54,10 +54,8 @@ public class s12_22_17142_ex {
 
     private static void combination_DFS(int L, int s){
         if(L==m){
-            System.out.println();
 
-            System.out.println(Arrays.toString(cm));
-            System.out.println();
+//            System.out.println(Arrays.toString(cm));
 
 
 
@@ -71,7 +69,6 @@ public class s12_22_17142_ex {
             for(int idx:cm){
 
                 Info cur = candidate.get(idx);
-                System.out.println("x:"+cur.x+" y:"+cur.y);
 
                 temp[cur.x][cur.y]=2;
                 visited[cur.x][cur.y]=true;
@@ -108,9 +105,11 @@ public class s12_22_17142_ex {
                 answer = Math.min(answer, midterm);
             }
 
-
-            printGrid(temp);
-
+//            System.out.println("temp");
+//            printGrid(temp);
+//
+//            System.out.println("dis");
+//            printGrid(dis);
 
 
         }else{
@@ -135,6 +134,8 @@ public class s12_22_17142_ex {
                     if(!visited[nx][ny] && temp[nx][ny]!=1){
                         visited[nx][ny]=true;
 
+                        if(temp[nx][ny]==0) {// 비활성->활성 말고, 문제는 원래 활성된 애들만 계산원함. 활성 상태인 바이러스는 상하좌우로 인접한 모든 빈 칸으로 동시에 복제
+                            dis[nx][ny]=dis[x][y]+1;}
                         temp[nx][ny]=2;
 
                         if(dis[x][y]+1 >=answer && answer!=Integer.MAX_VALUE)
@@ -142,7 +143,7 @@ public class s12_22_17142_ex {
 
                         q.offer(new Info(nx, ny));
 
-                        dis[nx][ny]=dis[x][y]+1;
+
 
                     }
                 }
@@ -157,11 +158,11 @@ public class s12_22_17142_ex {
             map[i] = src[i].clone();
         }
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(map[i][j]==2) map[i][j]=0;
-            }
-        }
+//        for(int i=0;i<n;i++){
+//            for(int j=0;j<n;j++){
+//                if(map[i][j]==2) map[i][j]=0;
+//            }
+//        }
         return map;
     }
     public static void printGrid(int[][] grid) {
