@@ -19,6 +19,7 @@ public class s12_22_17142_end {
     static int dy[] = {0, 1, 0, -1};
 
     static int[][]dis;
+    static int blankCnt;
 
     static int answer = Integer.MAX_VALUE;
 
@@ -43,6 +44,7 @@ public class s12_22_17142_end {
             for(int j=0;j<n;j++){
                 board[i][j] = sc.nextInt();
                 if(board[i][j]==2) candidate.add(new Info(i, j));
+                else if(board[i][j]==0) blankCnt++;
             }
         }
 
@@ -86,12 +88,12 @@ public class s12_22_17142_end {
                 for(int j=0;j<n;j++){
                     if(temp[i][j]==1) continue;
 
-                    //  퍼지지 않은 0,2가 있으면 실패
-                        if(!visited[i][j]){
+                    // 바이러스 전염은 0칸만 보면됨 (문제에서 그렇게하라함:, 활성 상태인 바이러스는 상하좌우로 인접한 모든 빈 칸으로 동시에 복제되며")
+                        if(!visited[i][j] && board[i][j]==0){
                             allSpread=false;
                             break;
                         }
-                        //시간 측정
+                        //시간 측정 - 0칸만
                         else if(board[i][j]==0){
                             midterm = Math.max(midterm, dis[i][j]);
                         }
@@ -134,12 +136,11 @@ public class s12_22_17142_end {
                     if(!visited[nx][ny] && temp[nx][ny]!=1){
                         visited[nx][ny]=true;
 
-                        if(temp[nx][ny]==0) {// 비활성->활성 말고, 문제는 원래 활성된 애들만 계산원함. 활성 상태인 바이러스는 상하좌우로 인접한 모든 빈 칸으로 동시에 복제
-                            dis[nx][ny]=dis[x][y]+1;}
+                        // 비활성->활성 말고, 문제는 원래 활성된 애들만 계산원함. 활성 상태인 바이러스는 상하좌우로 인접한 모든 빈 칸으로 동시에 복제
+                        dis[nx][ny]=dis[x][y]+1;
                         temp[nx][ny]=2;
 
-                        if(dis[x][y]+1 >=answer && answer!=Integer.MAX_VALUE)
-                            return;
+
 
                         q.offer(new Info(nx, ny));
 
