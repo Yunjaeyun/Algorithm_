@@ -5,10 +5,8 @@ public class s9_09_graph {
     static int n,m;
     static int []cm;
     private static void DFS(int L, int s){
-        System.out.println("L:" + L + ", s:" + s);
         if(L==m){
             for(int x:cm) System.out.print(x + " ");
-            System.out.println();
             System.out.println();
         }else{
             for(int i=s;i<=n;i++){
